@@ -1,0 +1,16 @@
+db.Books.insert([{
+  "isbn"     : "978-1-60309-057-5",
+  "tittle"   : "Dragon puncher",
+  "author"   : "James Kochalka",
+  "category" : "All Ages",
+  "sock"     : 3
+}, {
+  "isbn"     : "978-1-891830-77-8",
+  "tittle"   : "Every Girls is in the End of The World for Me",
+  "author"   : "Jeffrey Brown",
+  "category" : "Mature (16+)",
+  "sock"     : 5
+  }])
+
+
+db.Books.insert([{"isbn" : "978-1-60309-057-5", "tittle" : "Dragon puncher", "author" : "James Kochalka", "category" : "All Ages", "stock" : 3}, { "isbn" : "978-1-891830-77-8", "tittle" : "Every Girls is in the End of The World for Me", "author" : "Jeffrey Brown", "category" : "Mature (16+)", "stock" : 5 }])
